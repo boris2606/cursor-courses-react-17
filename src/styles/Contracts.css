@@ -12,8 +12,30 @@
     margin: 0 auto;
     background: url(../img/phone.webp) no-repeat center;
     background-size: cover;
-    padding: 70px 50px;
+    padding: 40px 50px;
     position: relative;
+}
+.wrapper_header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    color: blue;
+    font: 16px Roboto;
+    margin-bottom: 20px;
+}
+.text_prev{
+    position: relative;
+    margin-left: 7px;
+}
+.text_prev::before{
+    position: absolute;
+    content: '<';
+    top: -4px;
+    left: -14px;
+    font-size: 23px;
+}
+.text_plus{
+    font: 900 25px Roboto
 }
 .tit_text{
     font: 900 32px "Russo One";
@@ -22,10 +44,12 @@
 .search_input{
     width: 100%;
     padding: 10px;
-    border: 2px solid #ccc;
+    border: 0px solid #ccc;
     border-radius: 14px;
     font: 700 14px Roboto;
     color: rgb(20, 21, 21);
+    background:#cccccc3d;
+    outline: none;
 }
 .hr_block{
     border: 1px solid #ccc;
@@ -40,11 +64,41 @@ label{
 .wrapperLabels{
     display: flex;
     position: absolute;
-    top: 86px;
+    top: 100px;
     right: 37px;
 }
 .check_input{
     width: 20px;
     height: 15px;
     margin: 0 4px;
+}
+.my_profile_block{
+    display: flex;
+    justify-content: left;
+    align-items:center;
+    margin: 14px 0;
+}
+.profile_tit_txt{
+    width: 65px;
+    height: 65px;
+    padding: 18px 10px;
+    text-align: center;
+    border-radius: 40px;
+    background: rgb(20 21 21 / 62%);
+    align-items: center;
+}
+.profile_txt{
+    color:#fff;
+    font: 900 25px Roboto;
+}
+.profile_name{
+    font: 20px Russo One
+}
+.profile_descr{
+    font: 15px Roboto;
+    color: #646363;
+}
+
+.profile_info{
+    margin-left: 15px;
 }

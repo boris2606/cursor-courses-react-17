@@ -60,6 +60,10 @@ const Contracts = () => {
     return (
         // Основний блок отримання інформації
         <div className='phone_border'>
+            <div className='wrapper_header'>
+                <p className='text_prev'>Списки</p>
+                <p className='text_plus'>+</p>
+            </div>
             <p className='tit_text'>Контакти</p>
             {/* Інпут пошуку та призначення поточного стану */}
             <input 
@@ -67,6 +71,16 @@ const Contracts = () => {
                 value={inputValue}
                 onChange = {contact => setInput(contact.target.value)}
                 placeholder='Пошук'/>
+            <hr noshade="true" className='hr_block'/>
+            <div className='my_profile_block'>
+                <div className='profile_tit_txt'>
+                    <p className='profile_txt'>БШ</p>
+                </div>
+                <div className='profile_info'>
+                    <p className='profile_name'>Борис Шагієв</p>
+                    <p className='profile_descr'>Моя картка</p>
+                </div>
+            </div>
             {/* Чекбокси та зміна статусу при обиранні */}
             <div className='wrapperLabels'>
                 <label>
