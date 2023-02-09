@@ -1,0 +1,32 @@
+@import "./Fonts.css";
+.wrapper_contact{
+    margin: 10px 0;
+}
+.wrapper_contact_info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn_info{
+    border: 2px solid rgb(36, 53, 243);
+    border-radius: 20px;
+    width: 30px;
+    height: 30px;
+    background:transparent;
+    font: 900 16px "Roboto Mono";
+    cursor:pointer;
+}
+.contact_info{
+    font: 400 22px Roboto;
+}
+
+.wrapp_contact_deep_info{
+    display: flex;
+}
+.wrapp_contact_deep_info p {
+    font: 600 16px Roboto;
+    color: rgba(46, 46, 46, 0.782);
+}
+.wrapp_contact_deep_info p:nth-child(even){
+    margin-left: 75px;
+}

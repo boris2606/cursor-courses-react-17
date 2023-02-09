@@ -1,0 +1,50 @@
+@import "./Fonts.css";
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.phone_border{
+    width: 100%;
+    max-width: 450px;
+    height: 100%;
+    min-height: 840px;
+    margin: 0 auto;
+    background: url(../img/phone.webp) no-repeat center;
+    background-size: cover;
+    padding: 70px 50px;
+    position: relative;
+}
+.tit_text{
+    font: 900 32px "Russo One";
+    margin-bottom: 10px;
+}
+.search_input{
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 14px;
+    font: 700 14px Roboto;
+    color: rgb(20, 21, 21);
+}
+.hr_block{
+    border: 1px solid #ccc;
+    margin: 10px auto;
+}
+label{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    font: 900 12px Russo One;
+}
+.wrapperLabels{
+    display: flex;
+    position: absolute;
+    top: 86px;
+    right: 37px;
+}
+.check_input{
+    width: 20px;
+    height: 15px;
+    margin: 0 4px;
+}
